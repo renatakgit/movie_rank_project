@@ -17,7 +17,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
 LOCATION
-  's3://975049959409-formatted-data/'
+  's3://${ACCOUNT_ID}-formatted-data/'
 TBLPROPERTIES (
   'CrawlerSchemaDeserializerVersion'='1.0',
   'CrawlerSchemaSerializerVersion'='1.0',
