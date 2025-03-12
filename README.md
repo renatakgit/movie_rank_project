@@ -6,6 +6,8 @@ This project was created as the final assignment for my postgraduate studies in 
 ## Architecture
 The project follows a hybrid data processing approach using AWS services, combining batch and stream processing:
 
+![Project Architecture](./images/image.jpg)
+
 1. **Preprocessing:**
    - Raw JSON data is stored in an AWS S3 bucket.
    - AWS Glue processes the data and stores it in a formatted structure.
