@@ -22,7 +22,7 @@ The project follows a hybrid data processing approach using AWS services, combin
 
 ## Technologies Used
 - **AWS Services:** S3, Glue, Glue Data Catalog, Athena, EMR, Lambda, Kinesis
-- **Programming & Tools:** PySpark, JSON, SQL
+- **Programming & Tools:** PySpark, SQL
 - **Data Source:** Kaggle movie reviews dataset
 
 ## Results
